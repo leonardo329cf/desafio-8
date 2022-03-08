@@ -1,0 +1,24 @@
+.main-nav {
+    padding: 10px 20px 10px 20px;
+    min-width: 320px;
+    min-height: 50px;
+}
+
+.main-container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.main-nav h4 {
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .main-nav {
+        padding: 15px 40px 15px 40px;
+        min-height: 62px;
+    }
+    .main-nav h4 {
+        font-size: 24px;
+    }
+}
