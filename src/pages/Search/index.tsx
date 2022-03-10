@@ -1,4 +1,14 @@
+import { Profile } from 'types/Profile';
 import './styles.css';
+import ProfileCard from '../../components/ProfileCard';
+
+const profile : Profile = {
+  avatar_url: 'https://avatars.githubusercontent.com/u/39681326?v=4',
+  url: "https://api.github.com/users/leonardo329cf",
+  name: "Leonardo Cardozo Ferreira",
+  location: "Cachoeirinha, RS, Brasil",
+  followers: 4,
+}
 
 const Search = () => {
   return (
@@ -21,6 +31,7 @@ const Search = () => {
             </form>
           </div>
         </div>
+        <ProfileCard profileInfo={profile}/>
       </div>
     </>
   );
